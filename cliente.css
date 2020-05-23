@@ -1,0 +1,161 @@
+h2 {
+    text-align: center;
+    padding-top: 5px;
+}
+
+body {
+    text-align: center;
+    background-color:#000000;
+    color: #ccc;
+}
+
+a:link {
+    color: #330000;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #330000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #330000;
+    text-decoration: underline;
+}
+
+label {
+    padding: 0mm;
+    font-weight: bold;
+}
+
+.formatigual {
+    margin: 0 3px 0 1px;
+    font-weight: bold;
+    border: 0em;
+}
+
+.persona1 {
+    justify-content: space-between;
+    margin-left: 400px;
+}
+
+.legend {
+    text-align: center;
+}
+
+.imgfoto {
+    width: 200px;
+    height: 200px;
+    margin: 5px 10px 10px 100px;
+    position: 10 relative;
+}
+
+.obs {
+    margin: 0 5px 0 20px;
+}
+
+.btn {
+    align-items: baseline;
+}
+/*  .btn-cad {
+    background-color: #DFA503;
+    color: #ffffff;
+    margin-bottom: 10px;
+    align-items: center;
+} */
+
+.botaocad:hover {
+    background-color: rgb(65, 49, 5);
+}
+/* flex */
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid #ccc;
+}
+
+.item {
+    /* O flex: 1; é necessário para que cada item se expanda ocupando o tamanho máximo do container. */
+    flex: 1;
+    margin: 5px;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+.row {
+    padding-top: 15px;
+    padding: 3px;
+    margin-left: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.nav-item1{
+    background-color: #e49115;
+    font-size: 20px;
+    width: 90px;
+    height: 30px;
+    margin:5px;
+    border: solid 2px #ffbd59;
+    border-radius: 8px ;
+    color: #FFF;
+    
+}
+
+/* botoes cliente (fisico/juridico)*/
+.BTM_padrao1 {
+    color: #000000;
+    background-color: #e49115;
+    border-radius: 8px;
+    width: 130px; 
+    height: 40px;
+    line-height: 30px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    font-size:13px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+.BTM_padrao1:hover {
+    transform: scale(1.05);
+    background-color: #ece4e4;
+} 
+
+/* botoes do menu inferior( salvar, anterior, etc)*/
+
+.BTM_padrao2 {
+    color: #000000;
+    background-color: #e49115;
+    border-radius: 8px;
+    width: 120px; 
+    height: 45px;
+    line-height: 30px;
+    padding: 0 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    font-size:11px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+.BTM_padrao2:hover {
+    transform: scale(1.05);
+    background-color: #ece4e4;
+} 
+
+figure{
+    height:60vh;
+    width: 800px;
+    margin-left: 410px;
+    margin-top: 40px;
+
+}
